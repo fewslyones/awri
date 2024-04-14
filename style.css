@@ -1,0 +1,124 @@
+nav {
+    background-color: #eca610;
+    padding: 5px;
+}
+nav ul{
+    text-align:center;
+    font-size: 1.8em;
+    width: 100%;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #e0cf30;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style:dashed;
+    transition: 2s;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{background-color: rgb(111, 0, 255)}
+
+nav ul li:hover
+{
+    box-shadow: 0,0,35px ;
+    letter-spacing: 0.25em;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 255),rgb(190, 2, 2));
+    animation: animate 4s linear infinite'
+}
+
+
+header{
+    background-color: #e9b31e;
+    padding: 10px;
+}
+
+
+body{
+    font-family: Verdana;
+    margin: 0%;
+}
+
+.products {
+    text-align: center;
+    border: 5px  solid black;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.main-section > section {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.active {  
+    background-color: #e9b31e;
+} 
+
+
+.googlemaps {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Sets equal margin on left and right, which centers the image horizontally */
+} 
+
+.video {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Sets equal margin on left and right, which centers the image horizontally */
+    
+}
+
+/* Footer styles */
+footer {
+    margin-top: 350px;
+    background-color: rgba(31, 20, 16, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.flexbox img {
+    width: 400px; /* Adjust this value to your desired width */
+    height: 400px; /* This ensures the aspect ratio remains intact */
+}
+
+.flexitem img {
+        width: 400px; /* Adjust this value to your desired width */
+        height: 400px; /* This ensures the aspect ratio remains intact */
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .statistics-table, .attractions-section {
+        width: 100%;
+        border: 1px solid aliceblue;
+        padding: 10px;
+    }
+
+    .statistics-table th, .statistics-table td {
+        text-align: center;
+    }
+
+    
