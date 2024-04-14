@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Explore the best travel destinations and hidden gems with Dimitri's Travel Blog. Get tips, reviews, and guides on places like Tenerife, Mallorca, Minsk, and New York.">
+    <meta name="keywords" content="travel blog, travel tips, Tenerife tourism, Mallorca nightlife, Minsk attractions, New York travel guide">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/jpg" href="images/Dimitri.png"> 
+    <style>
+        body {
+            background-image: url('images/indiana-dunes-state-park-1848559_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            color: aliceblue;
+            min-height: 100vh; 
+            margin: 0; /* Reset margin */
+        }
+
+        /* Add black outline to all text */
+        strong, h1, h2, h3, h4, p, a {
+            text-shadow: 0 0 2px black;
+            text-align: center; /* Center align all text */
+        }
+
+        /* Add border to all images */
+        img {
+            border: 2px solid rgb(253, 248, 248);
+            display: block; /* Ensures the image is centered */
+            margin: 0 auto; /* Centers the image horizontally */
+        }
+
+        /* Center align paragraphs */
+        p {
+            text-align: center;
+        }
+
+        aside {
+            background-color: #eca610;
+            padding: 10px;
+            width: 100px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            padding-left: 120px; /* Adjust padding to accommodate aside */
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto; /* Center the form horizontally */
+            padding: 20px;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        label {
+            color: #fff;
+            display: block; /* Ensure labels are on top of inputs */
+            text-align: left; /* Left-align labels */
+            margin-bottom: 6px; /* Add spacing between labels */
+        }
+    </style>
+</head>
+<body>
+<aside>
+    <nav>
+        <img src="images/sunset.png" height="100" width="100" alt="Logo">
+    </nav>
+</aside>
+
+<header>
+    <nav>
+        <img src="images/Dimitri.png" height="100" width="100" alt="Logo" style="position: absolute; left: 10px; top: 10px;">
+        <ul>
+            <li class="active"> <a href="index.html"> Home </a></li>
+            <li> <a href="vlog.html">Vlog</a></li>
+            <li> <a href="third.html"> Our HQ </a> </li>
+            <li> <a href="contact.html"> Contact </a> </li>
+            <li><a href="https://www.e-unwto.org/toc/unwtotfb/current">Travel Statistics</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h1>Contact Form</h1>
+        <p><strong>Please fill in your information</strong></p>
+        <form action="http://foo.com" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p style="padding: 20px;">&copy; 2024 Dimitri's Travel Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
